@@ -1,0 +1,10 @@
+! [open "http://www.google.com" "3"] 0,497
+! [checkPageTitle "Google Search Page"] 0,750
+! [checkPageContains "The best search engine"] 0,589
++ [checkLinkPresentByHref "admin/delete/"] 0,955
+! [checkLinkPresentByName "google_search"] 0,949
+
+Total tests: 5
+Passed/Failed: 1/4
+Total time: 3,74
+Average time: 0,748
